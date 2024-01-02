@@ -14,6 +14,9 @@
 		8B39BF1F2B448CF1000DCAC0 /* LandMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39BF1E2B448CF1000DCAC0 /* LandMarkTests.swift */; };
 		8B39BF292B448CF1000DCAC0 /* LandMarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39BF282B448CF1000DCAC0 /* LandMarkUITests.swift */; };
 		8B39BF2B2B448CF1000DCAC0 /* LandMarkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39BF2A2B448CF1000DCAC0 /* LandMarkUITestsLaunchTests.swift */; };
+		8B39BF382B448DE6000DCAC0 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39BF372B448DE6000DCAC0 /* CircularImageView.swift */; };
+		8B39BF392B448DE6000DCAC0 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39BF372B448DE6000DCAC0 /* CircularImageView.swift */; };
+		8B39BF3A2B448DE6000DCAC0 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39BF372B448DE6000DCAC0 /* CircularImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 		8B39BF242B448CF1000DCAC0 /* LandMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B39BF282B448CF1000DCAC0 /* LandMarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkUITests.swift; sourceTree = "<group>"; };
 		8B39BF2A2B448CF1000DCAC0 /* LandMarkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B39BF372B448DE6000DCAC0 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			children = (
 				8B39BF0D2B448CEF000DCAC0 /* LandMarkApp.swift */,
 				8B39BF0F2B448CEF000DCAC0 /* ContentView.swift */,
+				8B39BF372B448DE6000DCAC0 /* CircularImageView.swift */,
 				8B39BF112B448CF1000DCAC0 /* Assets.xcassets */,
 				8B39BF132B448CF1000DCAC0 /* Preview Content */,
 			);
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B39BF102B448CEF000DCAC0 /* ContentView.swift in Sources */,
+				8B39BF382B448DE6000DCAC0 /* CircularImageView.swift in Sources */,
 				8B39BF0E2B448CEF000DCAC0 /* LandMarkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B39BF1F2B448CF1000DCAC0 /* LandMarkTests.swift in Sources */,
+				8B39BF392B448DE6000DCAC0 /* CircularImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B39BF2B2B448CF1000DCAC0 /* LandMarkUITestsLaunchTests.swift in Sources */,
+				8B39BF3A2B448DE6000DCAC0 /* CircularImageView.swift in Sources */,
 				8B39BF292B448CF1000DCAC0 /* LandMarkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
