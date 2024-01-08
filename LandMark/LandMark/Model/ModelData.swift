@@ -4,10 +4,13 @@
 //
 //  Created by developer on 07/01/2024.
 //
-
+	
 
 
 import Foundation
+
+
+var landmarks: [Landmark] = load("landmarkData.json")
 
 
 func load<T: Decodable>(_ filename: String) -> T {
