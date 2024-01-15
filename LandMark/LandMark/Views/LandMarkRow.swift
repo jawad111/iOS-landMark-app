@@ -20,6 +20,11 @@ var landmark: Landmark
 
 
             Spacer()
+            
+            if landmark.isFavorite {
+                           Image(systemName: "star.fill")
+                               .foregroundStyle(.yellow)
+                       }
         }
     }
 }
