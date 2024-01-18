@@ -9,12 +9,14 @@ import SwiftUI
 
 
 struct ContentView: View {
+    
     var body: some View {
-        LandmarkList()
+            LandmarkList()
+        }
     }
-}
 
 
-#Preview {
-    ContentView()
-}
+    #Preview {
+        ContentView()
+            .environment(ModelData())
+    }

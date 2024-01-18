@@ -30,5 +30,8 @@ var landmark: Landmark
 }
 
 #Preview {
-    LandmarkRow(landmark: landmarks[0])
+    let landmarks = ModelData().landmarks
+    return Group {
+        LandmarkRow(landmark: landmarks[0])
+    }
 }
