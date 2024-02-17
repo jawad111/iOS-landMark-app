@@ -5,6 +5,14 @@ Abstract:
 The elevation, heart rate, and pace of a hike plotted on a graph.
 */
 
+extension Animation {
+    static func ripple(index: Int) -> Animation {
+        Animation.spring(dampingFraction: 0.5)
+            .speed(2)
+            .delay(0.03 * Double(index))
+    }
+}
+
 import SwiftUI
 
 struct HikeGraph: View {
