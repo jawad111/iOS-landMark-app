@@ -10,10 +10,14 @@ import SwiftUI
 
 struct CategoryHome: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationSplitView {
+            Text("Split")
+                .navigationTitle("Featured")
+        } detail: {
+            Text("Select a Landmark")
+        }
     }
 }
-
 
 #Preview {
     CategoryHome()
