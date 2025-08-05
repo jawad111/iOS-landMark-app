@@ -1,9 +1,9 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A single line in the graph.
-*/
+///*
+//See the LICENSE.txt file for this sample’s licensing information.
+//
+//Abstract:
+//A single line in the graph.
+//*/
 
 import SwiftUI
 

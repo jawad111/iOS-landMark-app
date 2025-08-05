@@ -55,3 +55,8 @@ struct HikeView: View {
         }
     }
 }
+
+
+#Preview {
+    HikeView(hike: ModelData().hikes[0])
+}

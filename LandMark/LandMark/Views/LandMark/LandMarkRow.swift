@@ -29,9 +29,9 @@ var landmark: Landmark
     }
 }
 
-#Preview {
-    let landmarks = ModelData().landmarks
-    return Group {
-        LandmarkRow(landmark: landmarks[0])
-    }
-}
+//#Preview {
+//    let landMarks = ModelData().landmarks
+//    return Group {
+//        LandmarkRow(landmark: landMarks[0])
+//    }
+//}
