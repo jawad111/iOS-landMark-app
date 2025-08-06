@@ -11,6 +11,11 @@ extension Animation {
             .speed(2)
             .delay(0.03 * Double(index))
     }
+    static func easeIn(index: Int) -> Animation {
+        Animation.easeIn(duration: 0.5)
+            .speed(2)
+            .delay(0.03 * Double(index))
+    }
 }
 
 import SwiftUI
@@ -48,6 +53,7 @@ struct HikeGraph: View {
                         range: observation[keyPath: path],
                         overallRange: overallRange
                     )
+                    .animation(.easeIn(index: index))
                 }
                 .offset(x: 0, y: proxy.size.height * heightRatio)
             }
